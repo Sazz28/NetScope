@@ -27,6 +27,20 @@ NetScope analyzes any IPv4 address:
 
 **Example**
 
-```bash
+bash
 # Example usage
 python netscope.py 192.168.1.1
+
+
+Expected output:
+
+IP Address: 192.168.1.1
+Class: C
+CIDR: 192.168.1.0/24
+
+Installation:
+git clone https://github.com/Sazz28/NetScope.git
+cd NetScope
+
+
+
